@@ -1,0 +1,83 @@
+#modalMenu{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #0009;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#modalMenu.hide{
+    display: none;
+}
+#modalMenu .painel{
+    width: 90%;
+    max-width: 200px;
+    min-height: 280px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+#modalMenu .painel .checkbox{
+    display: flex;
+    align-items: center;
+    
+    width: 80%;
+    cursor: pointer;
+}
+#modalMenu .painel .checkbox:hover{
+    opacity: 0.7;    
+}
+#modalMenu .painel .checkbox img{
+    height: 20px;
+    margin-right: 20px;
+}
+#modalMenu .painel .checkbox .text{
+    line-height: 20px;
+    color: rgb(209, 209, 209);
+}
+#modalMenu .painel .checkbox .text p{
+    font-weight: 100;
+}
+#modalMenu .painel .download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#modalMenu .painel .download img{
+    height: 15px;
+}
+#modalMenu .painel .download p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #57CBFF;
+}
+#modalMenu .painel .doe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+#modalMenu .painel .doe:hover,
+#modalMenu .painel .download:hover{
+    opacity: 0.7;
+}
+#modalMenu .painel .doe img{
+    height: 20px;
+}
+#modalMenu .painel .doe p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-right: 10px;
+    color: rgb(204, 204, 204);
+}

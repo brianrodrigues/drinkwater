@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drink Water </title>
+    <link rel="icon" href="assets/icon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="menu.css" />
+  </head>
+  <body>
+  
+    <header>
+      <div class="tittle">
+        <h3>Drink Water</h3>
+      </div>
+      <div id="buttonMenu">
+        <img src="./assets/config.svg" alt="button menu" />
+      </div>
+    </header>
+
+    <main>
+      <div id="menssage" class="">
+        <img class="" src="./assets/logo.png" alt="" />
+        <p>
+          Não crie expectativas. Beba água! <br />Se nada der certo, pelo menos
+          você está hidratado!<br />
+        </p>
+        <div class="button"><p></p></div>
+      </div>
+
+      <div id="timer" class="hide">
+        <span>🙂</span>
+        <span></span>
+      </div>
+    </main>
+
+    <div id="modalMenu" class="hide">
+      <div class="painel">
+        <div id="beginner" class="checkbox">
+          <img src="./assets/noCheck.png" alt="check" />
+          <div class="text">
+            <h5>PRINCIPIANTE</h5>
+            <p>01:30:00</p>
+          </div>
+        </div>
+        <div id="intermediary" class="checkbox">
+          <img src="./assets/noCheck.png" alt="check" />
+          <div class="text">
+            <h5>INTERMEDIÁRIO</h5>
+            <p>01:00:00</p>
+          </div>
+        </div>
+        <div id="advanced" class="checkbox">
+          <img src="./assets/noCheck.png" alt="check" />
+          <div class="text">
+            <h5>AVANÇADO</h5>
+            <p>00:30:00</p>
+          </div>
+        </div>
+
+        <div id="download" class="download">
+          <img src="./assets/download.svg" alt="Download descktop" />
+          <p>Download para desktop</p>
+        </div>
+
+        <div id="doe" class="doe">
+          <p>Apoie um dev</p>
+          <img src="./assets/doar.svg" alt="Doe um Café" />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Feito com ❤️ por</p>
+      <div class="btnInsta">Brian Rodrigues</div>
+    </footer>
+
+    <script type="module">
+      import { App } from "./src/App.js";
+      App.start();
+    </script>
+  </body>
+</html>
