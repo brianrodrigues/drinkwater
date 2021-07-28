@@ -37,7 +37,7 @@ const Menu = {
         })
         Menu.btnDonate.addEventListener('click',()=>{
         
-            window.open('https://www.mercadopago.com/mlb/debits/new?preapproval_plan_id=2c93808478702c4f0178a9a235443ab8','Brian Rodrigues','frame=true,menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes')
+            window.open('LINK PARA ALGUM GATEWAY DE PAGAMENTO','Brian Rodrigues','frame=true,menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes')
         })
     },
     buttonMenu(){
